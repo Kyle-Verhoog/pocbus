@@ -1,0 +1,75 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 73}, {320, 350}}",
+        "class" : "TableView",
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "row_height" : 44,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "uuid" : "15D0946F-88FF-4ED6-A30C-9109A46E43BB",
+          "data_source_number_of_lines" : 1,
+          "class" : "TableView",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 18,
+          "name" : "tableArrivals"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{19, 33}, {92, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "F918C5E3-9B68-4CAA-B975-62F0E791F11B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Arrivals",
+          "font_size" : 24,
+          "name" : "labelSubtitle"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{119, 33}, {49, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "action" : "btn_refresh_click",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.011236,0.011236,0.011236,1.000000)",
+          "title" : "",
+          "uuid" : "52C05D23-C2F9-4EBE-995F-E81764E2F12B",
+          "class" : "Button",
+          "name" : "btnRefresh",
+          "image_name" : "iob:ios7_refresh_empty_32"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "arrivals",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

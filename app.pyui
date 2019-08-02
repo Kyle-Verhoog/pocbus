@@ -1,0 +1,90 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {320, 543}}",
+        "class" : "ScrollView",
+        "attributes" : {
+          "uuid" : "5134BDBC-F906-4074-AC29-57C593D76CE0",
+          "frame" : "{{0, 80}, {320, 320}}",
+          "content_height" : 320,
+          "class" : "ScrollView",
+          "name" : "scrollview1",
+          "content_width" : 320
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{17, 29}, {172, 44}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 36,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "0352770F-1C0A-4F9A-B7CA-3F4D55496199",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Buses",
+          "name" : "labelTitle",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 121}, {320, 288}}",
+        "class" : "TableView",
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "name" : "tableNearby",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "data_source_number_of_lines" : 1,
+          "class" : "TableView",
+          "uuid" : "3607ECD7-D43E-43EA-A9BA-A7921F0801C8",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "data_source_delete_enabled" : false,
+          "row_height" : 36,
+          "data_source_font_size" : 16
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{17, 81}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 24,
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "F918C5E3-9B68-4CAA-B975-62F0E791F11B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Nearby Stops",
+          "name" : "labelSubtitle",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

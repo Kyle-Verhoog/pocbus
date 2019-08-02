@@ -1,0 +1,56 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 59}, {320, 352}}",
+        "class" : "TableView",
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "data_source_font_size" : 16,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "uuid" : "32770E0B-494E-4400-A1C7-4C79D9BB7759",
+          "data_source_number_of_lines" : 1,
+          "class" : "TableView",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "data_source_delete_enabled" : true,
+          "name" : "tableBuses",
+          "row_height" : 36
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 19}, {342, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "F918C5E3-9B68-4CAA-B975-62F0E791F11B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Nearby Stops",
+          "font_size" : 24,
+          "name" : "labelSubtitle"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "stop",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
