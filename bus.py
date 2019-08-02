@@ -2,13 +2,11 @@
 # coding: utf-8
 
 import ui
-import socket
 import location
 import time
 
 import api
 import lib
-
 
 
 stops = []
@@ -132,7 +130,7 @@ nav.navigation_bar_hidden = True
 
 
 location.start_updates()
-# time.sleep(1000)
+time.sleep(0.5)
 loc = location.get_location()
 lat = loc['latitude']
 lon = loc['longitude']
